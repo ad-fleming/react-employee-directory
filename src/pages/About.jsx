@@ -1,6 +1,5 @@
 import React from "react";
 import Hero from "../components/Hero/Hero";
-import { Link } from "react-router-dom"
 import Container from "../components/Container/Container";
 import Row from "../components/Row/Row";
 import Col from "../components/Col/Col";
@@ -10,7 +9,6 @@ const About = () => {
         <div>
             <Hero backgroundImage="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80">
                 <h1>React Employee Search</h1>
-                <h2>We <strong><em>React</em></strong></h2>
             </Hero>
             <Container style={{marginTop: 30}}>
                 <Row>
