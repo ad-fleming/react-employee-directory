@@ -4,12 +4,13 @@ import About from "./pages/About";
 import Search from "./pages/Search";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Wrapper from "./components/Wrapper/Wrapper"
+import Wrapper from "./components/Wrapper/Wrapper";
+
 
 function App() {
   return (
     <Router>
-      <div>
+      <main>
         <Navbar />
         <Wrapper>
         <Route exact path="/react-employee-directory" component={About}/>
@@ -17,7 +18,7 @@ function App() {
         <Route exact path="/react-employee-directory/search" component={Search}/>
         </Wrapper>
         <Footer />
-      </div>
+      </main>
     </Router>
   );
 }
