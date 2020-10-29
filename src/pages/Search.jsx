@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Table from "../components/Table/Table"
-import Wrapper from "../components/Wrapper/Wrapper"
-import Hero from "../components/Hero/Hero"
 import API from "../utils/API"
 
 class Search extends Component {

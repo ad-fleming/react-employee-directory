@@ -23,7 +23,7 @@ class Table extends Component {
                                 <th>{employee.name.first}</th>
                                 <th>{employee.name.last}</th>
                                 <th>{employee.email}</th>
-                                <th><img src={employee.picture.thumbnail} alt="employee photo"/></th>
+                                <th><img src={employee.picture.thumbnail} alt="employee"/></th>
                             </tr>
                         ))}
                     </tbody>
