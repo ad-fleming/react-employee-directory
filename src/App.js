@@ -17,8 +17,8 @@ function App() {
         <Route exact path="/react-employee-directory/about" component={About}/>
         <Route exact path="/react-employee-directory/search" component={Search}/>
         </Wrapper>
-        <Footer />
       </main>
+      <Footer />
     </Router>
   );
 }
