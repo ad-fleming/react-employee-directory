@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Table from "../components/Table/Table"
+import Wrapper from "../components/Wrapper/Wrapper"
+import Hero from "../components/Hero/Hero"
 import API from "../utils/API"
 
 class Search extends Component {
@@ -38,9 +40,9 @@ class Search extends Component {
 
     render() {
         return (
-            <div>
-                <h1 className="text-center">You made it to the Search Page!</h1>
-                <form className="mb-2 ml-2">
+            <div className="col-12">
+                <h1 className="text-center my-2">Look up employees by First Name!</h1>
+                <form className="my-4 d-flex justify-content-center">
                     <input type="text" name="searchTerm" placeholder="Search an Employee..." id="employeeSearch" value={this.state.searchTerm} onChange={this.handleChange}/>
                 </form>
                 <Table employees={this.state.filteredEmployeesArray} />
