@@ -37,6 +37,11 @@
   This project is covered under the MIT license.
 
   _You can learn more about this project's license <a href="https://choosealicense.com/licenses/mit/">here</a>_
+
+  ## Links
+  [Repository](https://github.com/ad-fleming/react-employee-directory)
+  <br>
+  [Deployed Site](https://ad-fleming.github.io/react-employee-directory/)
   
 
   ## Questions
