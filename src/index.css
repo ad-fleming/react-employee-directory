@@ -13,6 +13,6 @@
   }
 
   main{
-      min-height: calc(100vh - 180px);
-      margin-bottom: 50px;
+      min-height: calc(100vh - 190px);
+      margin-bottom: 75px;
   }

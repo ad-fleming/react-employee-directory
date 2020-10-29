@@ -9,7 +9,7 @@ const Navbar = () => {
             <Link className="navbar-brand" to = "/react-employee-directory">
                 React Employee Search
             </Link>
-            <div>
+            <div className="collabse navbar-collapse">
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link 
