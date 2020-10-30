@@ -15,7 +15,7 @@
   * [Questions](#Questions)
   
   ## Installation
-  This website requires no installation. It can be visited at (ad-fleming.github.io/react-employee-directory)
+  No installation neccessary. Visit the site [here](ad-fleming.github.io/react-employee-directory)
   
   ## Usage
   Simply navigate to the search page and begin typing an Employee first name. An onChange event dynamically adapts the table based on the current input.
